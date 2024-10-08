@@ -1,0 +1,43 @@
+
+# Built files
+/target/
+
+# Rust specific files
+**/*.rs.bk        # Backup files created by some editors
+Cargo.lock        # Uncomment if you want to ignore it for libraries
+**/*.rs.bk        # Backup files created by some editors
+*.log             # Log files
+Cargo.lock
+
+
+# IDE and editor specific files
+.vscode/          # Visual Studio Code
+.idea/            # IntelliJ IDEA
+*.sublime-workspace  # Sublime Text
+*.sublime-project    # Sublime Text
+
+# Operating System files
+.DS_Store         # macOS
+Thumbs.db         # Windows
+*.swp             # Swap files from Vim
+*~                # Backup files from various editors
+
+# Other temporary files
+*.txt
+*.txt.gz
+*.tmp
+*.temp
+*.gz              # Compressed files
+*.zip             # Zip files
+
+# Coverage reports
+/coverage/
+
+# Cargo and Rust related files
+/.cargo/registry/*
+/.cargo/
+
+# Ignore the Rust analyzer configuration
+rust-analyzer.json
+
+.DS_Store
